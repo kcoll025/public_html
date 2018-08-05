@@ -1,0 +1,57 @@
+body {
+    background-color:  #0033FF
+}
+h1 {
+    color: white;
+}
+p1 {
+    color: red;
+}
+p2 {
+    background-color: Black;
+    color: red;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid Black;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: Black;
+    color: White
+}
+tr:nth-child(odd) {
+    background-color: Red;
+    color: White
+}
+
+
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
